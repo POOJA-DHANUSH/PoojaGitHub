@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Magic Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6b1de;
+            color: #333;
+        }
+        header {
+            background: url('restaurant-banner.jpg') no-repeat center center/cover;
+            height: 70vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        nav {
+            background: #333;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(176, 80, 224);
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        .container {
+            padding: 2em;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu div {
+            background: rgb(253, 168, 247);
+            padding: 1em;
+            margin: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Unique Restaurant</h1>
+        <p>Your culinary adventure begins here</p>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div>
+                <h3>Appetizers</h3>
+                <p>Delicious starters to begin your meal.</p>
+            </div>
+            <div>
+                <h3>Main Course</h3>
+                <p>Hearty and satisfying dishes.</p>
+            </div>
+            <div>
+                <h3>Desserts</h3>
+                <p>Sweet treats to end your meal.</p>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>Contact us: info@uniquerestaurant.com | +1 123 456 7890</p>
+        <p>123 Culinary Street, Foodsville, FL</p>
+    </footer>
+</body>
+</html>
